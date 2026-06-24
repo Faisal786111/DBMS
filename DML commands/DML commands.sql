@@ -36,6 +36,16 @@ values(1 ,'khan' , 'faisal' , 'CS', 9);
 INSERT INTO student (studId , lastName , firstName , credits)
 values(2 , 'surwase' , 'harsha' , 8);
 
+-- 3. UPDATE command : used to update the table 
+-- syntax: 
+UPDATE table_name 
+SET attr_name = value
+WHERE condition;
+
+UPDATE student 
+SET name = "faisal"
+where id = 1; 
+
 -- 4. DELETE command : used to delete records from the table
 -- syntax : 
 DELETE FROM table_name; -- to delete all records
